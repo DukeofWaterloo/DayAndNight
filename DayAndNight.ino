@@ -33,13 +33,13 @@ void loop() {
 
   if (abs(topValue - botValue) > turnTolerance) { // System in Moveable Condition (above tolerance)
 
-    if ((currPos + turnStep) < maxPos) { // Motor is Moveable Upwards
+    if ((currPos + turnStep) < maxPos || (currPos - turnStep) > minPos) { // Motor is Moveable
+
       if (topValue > botValue) { // Stronger Light from Top
         currPos += turnStep;
         solarServo.write((currPos));
       }
-    }
-    if ((currPos - turnStep) > minPos) { // Motor is Moveable Downwards
+
       if (topValue < botValue) { // Stronger Light from Bottom
         currPos -= turnStep;
         solarServo.write((currPos));
