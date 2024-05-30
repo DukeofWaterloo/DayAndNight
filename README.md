@@ -8,6 +8,4 @@ This project is currently in the works, so stay tuned for future updates!
 
 ![Day And Night System Flowchart](https://github.com/DukeofWaterloo/DayAndNight/assets/59591006/1b821ffa-b4cc-4ea1-9a45-1344c3d409c4)
 
-
-![Day And Night Software Flowchart](https://github.com/DukeofWaterloo/DayAndNight/assets/59591006/5e0e7915-ffd1-4cbc-b1f0-5a9beca4d5f1)
-
+![Day And Night Software Flowchart](https://github.com/DukeofWaterloo/DayAndNight/assets/59591006/4703a1f9-72f6-4df8-a563-06c8b0a01e91)
