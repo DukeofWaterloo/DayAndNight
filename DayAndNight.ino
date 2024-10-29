@@ -20,7 +20,7 @@ void setup() {
 
   solarServo.attach(4);  // Attach physical servo to the servo object
 
-  Serial.begin(9600);
+  Serial.begin(9600);    // Start Serial Connection 
 }
 
 void loop() {
